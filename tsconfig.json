@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+
+  "compilerOptions": {
+    // ...
+    "types": [
+      "vite-plugin-vue-layouts/client",
+      "element-plus/global",
+      "unplugin-icons/types/vue",
+      "vite-plugin-pages/client",
+      "vite-plugin-pwa/client",
+    ]
+  },
+  "include": ["src/types/auto-imports.d.ts"]
+}
